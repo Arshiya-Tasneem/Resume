@@ -1,0 +1,85 @@
+/* Color Palette */
+:root {
+    --primary-color: #987d9a;
+    --secondary-color: #bb9ab1;
+    --background-color: #eeced9;
+    --text-color: #333333;
+    --section-background-color: #fbf8d8;
+    --border-color: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background: var(--primary-color);
+    color: var(--border-color);
+    padding: 20px 0;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: var(--section-background-color);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--background-color);
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px;
+    background: var(--primary-color);
+    color: var(--border-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: var(--secondary-color);
+}
+footer {
+    background: var(--primary-color);
+    color: var(--border-color);
+    padding: 20px 0;
+    text-align: center;
+}
